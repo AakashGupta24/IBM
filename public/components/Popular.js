@@ -30,8 +30,8 @@ const Popular = () => {
 
       <div className="popular-foods__catalogue" data-aos="fade-up">
         <article className="popular-foods__card">
-          <img className="popular-foods__card-image" src="assets/vadapav.png" alt="vadapav" />
-          <h4 className="popular-foods__card-title">Vada Pav</h4>
+          <img className="popular-foods__card-image" src="assets/saree01.jpg" alt="vadapav" height={50} width={50}/>
+          <h4 className="popular-foods__card-title">Kaathyavadi</h4>
 
           <div className="popular-foods__card-details flex-between">
             <div className="popular-foods__card-rating">
@@ -43,8 +43,8 @@ const Popular = () => {
         </article>
 
         <article className="popular-foods__card active-card">
-          <img className="popular-foods__card-image" src="assets/biryani.png" alt="biryani" />
-          <h4 className="popular-foods__card-title">Biryani</h4>
+          <img className="popular-foods__card-image" src="assets/saree02.jpg" alt="biryani" />
+          <h4 className="popular-foods__card-title">Konkani</h4>
           
           <div className="popular-foods__card-details flex-between">
             <div className="popular-foods__card-rating">
@@ -56,8 +56,8 @@ const Popular = () => {
         </article>
 
         <article className="popular-foods__card">
-          <img className="popular-foods__card-image" src="assets/panipuri.png" alt="panipuri" />
-          <h4 className="popular-foods__card-title">Panipuri Or Golgappa</h4>
+          <img className="popular-foods__card-image" src="assets/saree03.jpeg" alt="panipuri" />
+          <h4 className="popular-foods__card-title">Assami</h4>
 
           <div className="popular-foods__card-details flex-between">
             <div className="popular-foods__card-rating">

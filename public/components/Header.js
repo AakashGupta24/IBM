@@ -7,7 +7,7 @@ const Header = () => {
       <header>
       <nav className="header__nav">
         <div className="header__logo">
-          <h4 data-aos="fade-down">Bharatvarsh</h4>
+          <h4 data-aos="fade-down"><a href="/"> Bharatvarsh </a></h4>
           <div className="header__logo-overlay"></div>
         </div>
 
