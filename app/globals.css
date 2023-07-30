@@ -26,7 +26,10 @@
     width: 100%;
     background-size: cover;
   }
-
+.trending{
+  display: flex;
+  flex-direction: column;
+}
   .trending__discover {
     display: none;
   }
@@ -42,7 +45,13 @@
   }
 
 
-
+.hero-image{
+  height: 30vh;
+  margin-bottom: 5rem;
+}
+.hero-image img{
+  height: 50vh;
+}
 
 }
 
@@ -54,6 +63,10 @@
 
   .trending__content {
     padding: 32px;
+  }
+  .trending{
+    display: flex;
+    flex-direction: column;
   }
 }
 /* END: trending media queries */
