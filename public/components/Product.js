@@ -19,7 +19,7 @@ const Product = ({product :{
   return (
     <>
       <Link href={`/shop/${name}`}>
-       <div className="" data-aos="fade-right">
+       <div className="" data-aos="fade-bottom">
         <img src={`${imageUrl}`} alt={name} />
         <h3>{name}</h3>
         <p>{price}</p>

@@ -34,6 +34,16 @@
   .trending__arrow {
     display: none;
   }
+
+  .header__menu{
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  }
+
+
+
+
 }
 
 @media screen and (max-width: 550px) {
@@ -203,7 +213,7 @@
 /* header section  */
 .header__nav {
   display: flex;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 .header__logo {

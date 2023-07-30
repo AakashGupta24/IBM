@@ -10,7 +10,7 @@ const Map = () => {
       <img
         src="assets/map.png"
         alt="India Map"
-        useMap="#indiaMap"
+        useMap="#indiaMap" style={{mixBlendMode:'color-burn'}}
       />
       <map name="indiaMap">
         {/* Define clickable areas for each state */}
@@ -21,6 +21,7 @@ const Map = () => {
       </map>
     </div>
     </div>
+    
   )
 }
 

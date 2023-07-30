@@ -25,13 +25,13 @@ const Header = () => {
           <Link href={`/aboutus`}>ABOUT US</Link>
           </li>
           <li>
-            <img src="assets/search.svg" alt="search" />
+            <img src="/assets/search.svg" alt="search" />
           </li>
         </ul>
 
         <ul className="header__menu-mobile" data-aos="fade-down">
           <li>
-            <img src="assets/menu.svg" alt="menu" />
+            <img src="/assets/menu.svg" alt="menu" />
           </li>
         </ul>
       </nav>
