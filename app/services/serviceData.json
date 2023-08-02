@@ -1,0 +1,35 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Amazon Prime",
+        "description": "Enjoy unlimited fast delivery, exclusive access to movies, TV shows, music, and more.",
+        "iconUrl": "https://res.cloudinary.com/dplyi070y/image/upload/v1690979516/payment_ypp3kj.jpg" 
+      },
+      {
+        "id": 2,
+        "title": "Amazon Pay",
+        "description": "Secure and convenient way to pay for your purchases online and offline.",
+        "iconUrl": "https://res.cloudinary.com/dplyi070y/image/upload/v1690979516/payment_ypp3kj.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Amazon Web Services (AWS)",
+        "description": "Build, deploy, and scale applications quickly using AWS's cloud computing platform.",
+        "iconUrl": "https://res.cloudinary.com/dplyi070y/image/upload/v1690979516/payment_ypp3kj.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Kindle eBooks",
+        "description": "Discover and read from a wide selection of digital books on your Kindle device.",
+        "iconUrl": "https://res.cloudinary.com/dplyi070y/image/upload/v1690979516/payment_ypp3kj.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Amazon Music",
+        "description": "Stream and download millions of songs on Amazon Music.",
+        "iconUrl": "https://res.cloudinary.com/dplyi070y/image/upload/v1690979516/payment_ypp3kj.jpg"
+      }
+    ]
+  }
+  

@@ -1,0 +1,62 @@
+/* styles/services.module.css */
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .servicesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+   }
+  .serviceCard {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease;
+    transition: transform 0.2s ease;
+  }
+  
+  .serviceCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .serviceIcon {
+    width: 100px; /* Set a fixed width for the service icons */
+    height: 100px; /* Set a fixed height for the service icons */
+    object-fit: contain;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .serviceTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+ /* .serviceIcon{
+    height: 10rem;
+ } */
+  .serviceDescription {
+    font-size: 1rem;
+    color: #666;
+  }

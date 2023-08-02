@@ -15,7 +15,6 @@ const Product = ({product :{
       offset: 100,
     });
   }, [])
-  console.log(imageUrl);
   return (
     <>
       <Link href={`/shop/${name}`}>
